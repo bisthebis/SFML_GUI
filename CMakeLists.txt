@@ -16,6 +16,8 @@ include_directories(${SFML_INCLUDE_DIR})
 add_executable(
 	Programme
 	main.cpp
+        button.cpp
+        button.h
 
 )
 
